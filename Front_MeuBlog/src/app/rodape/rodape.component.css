@@ -1,0 +1,36 @@
+ul.redes-sociais{
+    list-style: none;
+    padding: 0;
+}
+
+ul.redes-sociais li{
+    display: inline;
+    margin: 0;
+    padding: 5px;
+}
+
+.fa{
+    font-size: 35pt;
+    color: white;
+    padding: 10px;
+}
+
+.cadastroBK{
+  background-color: #0F0D01 ;
+}
+
+.iniciopage{
+  background-color: #3a3a28;;
+}
+
+.fa-instagram:hover{
+    color:#DD2A7B ;
+}
+
+.fa-linkedin-square:hover{
+    color:  #007bb6 ;
+}
+
+.fa-github-square:hover{
+    color:#171515 ;
+}

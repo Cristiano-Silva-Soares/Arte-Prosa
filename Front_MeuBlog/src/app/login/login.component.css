@@ -1,0 +1,14 @@
+#img-bg{
+    background-image: url('../../assets/imags/aaah1114841.jpg');
+
+    min-height: 685px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logincolor{
+    background-color: #0F0D01;
+}
+
+
