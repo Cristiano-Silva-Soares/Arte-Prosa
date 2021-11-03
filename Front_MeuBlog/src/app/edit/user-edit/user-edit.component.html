@@ -11,33 +11,33 @@
     <div class="col-md-10">
 
       <div class="form-group">
-        <label class='text-light shadowall' for="nome">Nome</label>
+        <label class='text-dark' for="nome">Nome</label>
         <input [(ngModel)]='user.nomeUsuario'  class="form-control shadowbox" type="text" name="nome" id="nome" placeholder="Seu nome">
       </div>
 
       <div class="form-group">
-        <label class="text-light shadowall" for="e-mail">E-mail</label>
+        <label class="text-dark" for="e-mail">E-mail</label>
         <input [(ngModel)]='user.email' class="form-control shadowbox" type="email" name="e-mail" id="e-mail" placeholder="Seu e-mail">
       </div>
 
       <div class="form-group">
-        <label class='text-light shadowall' for="foto">Link da Foto</label>
+        <label class='text-dark' for="foto">Link da Foto</label>
         <input [(ngModel)]='user.foto' class="form-control shadowbox" type="text" name="foto" id="foto" placeholder="Link da sua foto">
       </div>
 
       <div class="form-group">
-        <label class="text-light shadowall" for="senha">Senha</label>
+        <label class="text-dark" for="senha">Senha</label>
         <input [(ngModel)]='user.senha'   class="form-control shadowbox" type="password" name="senha" id="senha" placeholder="Sua senha">
       </div>
 
       <div class="form-group">
-        <label class="text-light shadowall" for="confirmSenha">Confirmar Senha</label>
+        <label class="text-dark" for="confirmSenha">Confirmar Senha</label>
         <input (input)='confirmSenha($event)' class="form-control shadowbox" type="password" name="confirmSenha" id="confirmSenha"
           placeholder="Confirme sua senha">
       </div>
 
       <div class="form-group">
-        <label class="text-light shadowall" for="tipo">Tipo de Usuário</label>
+        <label class="text-dark" for="tipo">Tipo de Usuário</label>
         <select  class="form-control shadowbox" name="tipo" id="tipo" (change)='tipoUser($event)'>
           <option>Selecione um tipo de usuário:</option>
           <option value="normal">Normal</option>
